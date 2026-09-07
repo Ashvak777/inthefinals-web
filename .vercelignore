@@ -1,0 +1,8 @@
+.git
+.htaccess
+.wrangler
+wrangler.toml
+README.txt
+**/*.php
+_preview
+.DS_Store
