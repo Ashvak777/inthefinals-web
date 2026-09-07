@@ -1,0 +1,9 @@
+.git
+.gitignore
+.wrangler
+wrangler.toml
+README.txt
+.htaccess
+.assetsignore
+*.php
+.DS_Store
