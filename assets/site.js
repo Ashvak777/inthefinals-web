@@ -59,14 +59,23 @@
   const tabs = document.querySelectorAll("[data-compare-tab]");
   const panels = document.querySelectorAll("[data-compare-panel]");
   if (tabs.length && panels.length) {
+    const activate = (id) => {
+      tabs.forEach((t) => {
+        const on = t.getAttribute("data-compare-tab") === id;
+        t.classList.toggle("on", on);
+        t.setAttribute("aria-selected", on ? "true" : "false");
+      });
+      panels.forEach((p) => {
+        p.classList.toggle("show", p.getAttribute("data-compare-panel") === id);
+      });
+    };
     tabs.forEach((tab) => {
+      tab.setAttribute("role", "tab");
       tab.addEventListener("click", () => {
-        const id = tab.getAttribute("data-compare-tab");
-        tabs.forEach((t) => t.classList.toggle("on", t === tab));
-        panels.forEach((p) => {
-          p.classList.toggle("show", p.getAttribute("data-compare-panel") === id);
-        });
+        activate(tab.getAttribute("data-compare-tab"));
       });
     });
+    const initial = document.querySelector("[data-compare-tab].on") || tabs[0];
+    if (initial) activate(initial.getAttribute("data-compare-tab"));
   }
 })();
