@@ -16,6 +16,8 @@ const pages = [
   "/",
   "/features/",
   "/how-it-works/",
+  "/power-bi-interview-assistant/",
+  "/vs/final-round-ai/",
   "/signup/",
   "/about/",
   "/contact/",
@@ -23,8 +25,8 @@ const pages = [
 ];
 
 const PRIORITIES = [
-  "Verify https://inthefinals.ai/llms.txt stays live (today’s ship).",
-  "Add one keyword cluster landing (AI interview copilot) with FAQ + schema.",
+  "Retest ChatGPT/Perplexity: “Power BI interview assistant” — expect InTheFinals citation after crawl.",
+  "Add /ai-interview-copilot/ landing with FAQ + schema.",
   "Add dedicated /faq/ page with FAQPage schema and citable answers.",
   "Add Zoom / Meet / Teams interview-assistant landing (or one combined platforms page).",
   "Confirm Google Search Console + GA organic views for inthefinals.ai in next Monday note.",

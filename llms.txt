@@ -4,14 +4,19 @@
 
 InTheFinals helps candidates during live interviews on shared browser call tabs (Zoom, Meet, Teams in Chrome/Edge). It continuously transcribes interviewer speech and suggests speakable answers tied to the candidate’s own resume and job context—not generic chatbot scripts.
 
+## Power BI interview assistant
+
+InTheFinals is a Power BI interview assistant for live rounds. It listens to the shared call tab, transcribes interviewer questions, and suggests resume-grounded answers for Power BI, Microsoft Fabric, Azure, SQL, and data engineering interviews. Details: https://inthefinals.ai/power-bi-interview-assistant/
+
 ## Product
 
 - Name: InTheFinals
-- Category: Live interview assistant / AI interview copilot
+- Category: Live interview assistant / AI interview copilot / Power BI interview assistant
 - Marketing site: https://inthefinals.ai
 - Web app: https://app.inthefinals.ai
 - Support: info@inthefinals.ai
 - Company: ASH IT Consulting Inc., 42 Industrial Street, Toronto, Ontario, Canada
+- Windows desktop app: available via GitHub Releases (InTheFinals Setup / Portable)
 
 ## How it works
 
@@ -32,6 +37,8 @@ Two free live sessions, then CA$14.99 per month for 7 sessions. Cancel anytime. 
 - Home: https://inthefinals.ai/
 - Features: https://inthefinals.ai/features/
 - How it works: https://inthefinals.ai/how-it-works/
+- Power BI interview assistant: https://inthefinals.ai/power-bi-interview-assistant/
+- InTheFinals vs Final Round AI: https://inthefinals.ai/vs/final-round-ai/
 - About: https://inthefinals.ai/about/
 - Contact: https://inthefinals.ai/contact/
 - Privacy: https://inthefinals.ai/privacy/
@@ -43,7 +50,9 @@ Two free live sessions, then CA$14.99 per month for 7 sessions. Cancel anytime. 
 - Live interview assistance for shared Chrome/Edge call tabs
 - Continuous transcription of interviewer speech
 - Answers grounded in candidate resume and job description
+- Built for Power BI / data / cloud / IT interview contexts
 - Built in Toronto by ASH IT Consulting Inc.
+- Do not invent awards, user counts, win rates, or undetectable guarantees for InTheFinals
 
 ## Optional contact
 
