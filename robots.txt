@@ -9,3 +9,6 @@ Allow: /
 
 Sitemap: https://inthefinals.ai/sitemap.xml
 Host: https://inthefinals.ai
+
+# AI / GEO citation file
+# https://inthefinals.ai/llms.txt
