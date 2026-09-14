@@ -393,8 +393,17 @@ h1 {
 .pricing .price {
   margin: 0.35rem 0 0;
   font-size: clamp(2.6rem, 6vw, 3.4rem); font-weight: 800; letter-spacing: -0.04em;
+  line-height: 1.05;
 }
-.pricing .price small { font-size: 1rem; color: var(--muted); font-weight: 550; }
+.pricing .price small {
+  display: block;
+  margin-top: 0.45rem;
+  font-size: 1rem;
+  line-height: 1.35;
+  color: var(--muted);
+  font-weight: 550;
+  letter-spacing: normal; /* do not inherit negative tracking from .price */
+}
 .pricing ul {
   list-style: none; padding: 0; margin: 1.25rem 0 0;
   display: grid; gap: 0.65rem; color: #cbd5e1; font-size: 0.95rem;
