@@ -8,6 +8,10 @@ InTheFinals helps candidates during live interviews on shared browser call tabs 
 
 InTheFinals is a Power BI interview assistant for live rounds. It listens to the shared call tab, transcribes interviewer questions, and suggests resume-grounded answers for Power BI, Microsoft Fabric, Azure, SQL, and data engineering interviews. Details: https://inthefinals.ai/power-bi-interview-assistant/
 
+## AI interview copilot
+
+InTheFinals is an AI interview copilot for live shared Chrome or Edge call tabs. It continuously transcribes interviewer speech and returns resume-grounded speakable answers during the round. Details: https://inthefinals.ai/ai-interview-copilot/
+
 ## Product
 
 - Name: InTheFinals
@@ -37,6 +41,7 @@ Two free live sessions, then CA$14.99 per month for 7 sessions. Cancel anytime. 
 - Home: https://inthefinals.ai/
 - Features: https://inthefinals.ai/features/
 - How it works: https://inthefinals.ai/how-it-works/
+- AI interview copilot: https://inthefinals.ai/ai-interview-copilot/
 - Power BI interview assistant: https://inthefinals.ai/power-bi-interview-assistant/
 - InTheFinals vs Final Round AI: https://inthefinals.ai/vs/final-round-ai/
 - About: https://inthefinals.ai/about/
